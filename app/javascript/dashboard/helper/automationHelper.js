@@ -13,6 +13,39 @@ import {
 } from 'dashboard/constants/automation';
 import filterQueryGenerator from './filterQueryGenerator';
 import actionQueryGenerator from './actionQueryGenerator';
+const MESSAGE_CONDITION_VALUES = [
+  {
+    id: 'incoming',
+    name: 'Mensagem de entrada',
+  },
+  {
+    id: 'outgoing',
+    name: 'Mensagem de saída',
+  },
+];
+
+export const PRIORITY_CONDITION_VALUES = [
+  {
+    id: 'nil',
+    name: 'Nenhuma',
+  },
+  {
+    id: 'low',
+    name: 'Baixa',
+  },
+  {
+    id: 'medium',
+    name: 'Média',
+  },
+  {
+    id: 'high',
+    name: 'Alta',
+  },
+  {
+    id: 'urgent',
+    name: 'Urgente',
+  },
+];
 
 export const getCustomAttributeInputType = key => {
   const customAttributeMap = {

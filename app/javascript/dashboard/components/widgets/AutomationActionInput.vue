@@ -133,6 +133,15 @@ export default {
               :options="dropdownValues"
               :allow-empty="false"
               :option-height="104"
+              :no-results-text="$t('FORMS.MULTISELECT.NO_RESULTS')"
+              :no-result="$t('FORMS.MULTISELECT.NO_RESULTS')"
+              :no-results="$t('FORMS.MULTISELECT.NO_RESULTS')"
+              :noResult="$t('FORMS.MULTISELECT.NO_RESULTS')"
+              :noResults="$t('FORMS.MULTISELECT.NO_RESULTS')"
+              :noOption="$t('FORMS.MULTISELECT.NO_RESULTS')"
+              :noOptions="$t('FORMS.MULTISELECT.NO_RESULTS')" 
+              :no-option="$t('FORMS.MULTISELECT.NO_RESULTS')"
+              :no-options="$t('FORMS.MULTISELECT.NO_RESULTS')"
             />
           </div>
           <div
@@ -152,6 +161,15 @@ export default {
               :options="dropdownValues"
               :allow-empty="false"
               :option-height="104"
+              :no-results-text="$t('FORMS.MULTISELECT.NO_RESULTS')"
+              :no-result="$t('FORMS.MULTISELECT.NO_RESULTS')"
+              :no-results="$t('FORMS.MULTISELECT.NO_RESULTS')"
+              :noResult="$t('FORMS.MULTISELECT.NO_RESULTS')"
+              :noResults="$t('FORMS.MULTISELECT.NO_RESULTS')"
+              :noOption="$t('FORMS.MULTISELECT.NO_RESULTS')"
+              :noOptions="$t('FORMS.MULTISELECT.NO_RESULTS')" 
+              :no-option="$t('FORMS.MULTISELECT.NO_RESULTS')"
+              :no-options="$t('FORMS.MULTISELECT.NO_RESULTS')"              
             />
           </div>
           <input
@@ -159,14 +177,14 @@ export default {
             v-model="action_params"
             type="email"
             class="answer--text-input"
-            :placeholder="$t('AUTOMATION.ACTION.EMAIL_INPUT_PLACEHOLDER')"
+            placeholder="Informe o email"
           />
           <input
             v-else-if="inputType === 'url'"
             v-model="action_params"
             type="url"
             class="answer--text-input"
-            :placeholder="$t('AUTOMATION.ACTION.URL_INPUT_PLACEHOLDER')"
+            placeholder="Informe a url"
           />
           <AutomationActionFileInput
             v-if="inputType === 'attachment'"

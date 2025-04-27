@@ -42,11 +42,11 @@
           "IN_VALID": "Chave inválida"
         },
         "REGEX_PATTERN": {
-          "LABEL": "Regex Pattern",
+          "LABEL": "Padrão Regex",
           "PLACEHOLDER": "Por favor, insira o padrão de expressão regular para atributo personalizado. (Opcional)"
         },
         "REGEX_CUE": {
-          "LABEL": "Regex Cue",
+          "LABEL": "Sugestão Regex",
           "PLACEHOLDER": "Por favor, insira uma dica para o padrão de expressão regular. (Opcional)"
         },
         "ENABLE_REGEX": {

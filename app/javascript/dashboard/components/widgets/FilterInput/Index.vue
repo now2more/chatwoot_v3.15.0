@@ -243,8 +243,8 @@ export default {
             v-else
             v-model="values"
             type="text"
-            class="!mb-0"
-            :placeholder="$t('FILTER.INPUT_PLACEHOLDER')"
+            class="mb-0"
+            placeholder="Digite alguma coisa"
           />
         </div>
         <NextButton
